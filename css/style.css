@@ -231,6 +231,7 @@ header {
 .sec_focus {
   display: flex;
   justify-content: center;
+  margin-bottom: 116px;
 }
 
 .sec_focus_content {
@@ -263,4 +264,79 @@ header {
   border-radius: 48px;
   width: 840px;
   height: 365px;
+}
+
+/* Newsletter Section Style */
+.sec_newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter_title {
+  width: 528px;
+}
+
+.newsletter_title h2 {
+  font-size: 97px;
+  font-weight: 700;
+  color: var(--other-color);
+}
+
+.newsletter_items {
+  width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  gap: 115px;
+}
+
+.newsletter_form {
+  width: 497px;
+}
+
+.newsletter_form form label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  color: var(--other-color);
+  margin-bottom: 10px;
+}
+
+.newsletter_form form input[type='email'],
+input[type='text'] {
+  width: 497px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0000007e;
+  padding: 20px 32px;
+  border: 1px solid #00000027;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter_form form textarea {
+  width: 497px;
+  height: 135px;
+  padding: 20px 32px;
+  color: #0000007e;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid #00000027;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter_form form input[type='submit'] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 19px;
+  background-color: var(--primary-color);
+  padding: 19px 0;
+  width: 497px;
+}
+
+.newsletter_form form input[type='submit']:hover {
+  background-color: #3f3ad7;
+  transition: 0.4s;
 }
