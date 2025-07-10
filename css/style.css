@@ -5,6 +5,7 @@
   --text-color2: #2524328a;
   --other-color: #000000;
   --btn-hover-color: #3f3ad7;
+  --black-color-50: #0000007c;
 }
 
 * {
@@ -110,4 +111,44 @@ header {
   width: 403px;
   height: 328px;
   border-radius: 48px;
+}
+
+/* Productive Users Section Style */
+.sec_productive_user {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 80px;
+  border-radius: 24px;
+  background-color: #e4e6ff;
+  margin-bottom: 116px;
+}
+
+.productive_user_title {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--heading-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.productive_user_details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user_details {
+  text-align: center;
+}
+
+.user_details h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--btn-hover-color);
+}
+
+.user_details p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #0000007c;
 }
