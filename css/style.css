@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -270,6 +271,7 @@ header {
 .sec_newsletter {
   display: flex;
   justify-content: center;
+  margin-bottom: 116px;
 }
 
 .newsletter_title {
@@ -286,6 +288,7 @@ header {
   width: 1140px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 115px;
 }
 
@@ -339,4 +342,50 @@ input[type='text'] {
 .newsletter_form form input[type='submit']:hover {
   background-color: #3f3ad7;
   transition: 0.4s;
+}
+
+/* Footer Section Style */
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid #00000023;
+}
+
+.footer_area {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_content {
+  width: 531px;
+  padding: 104px 0;
+}
+
+.footer_content h2 {
+  font-size: 100px;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.footer_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987a1;
+  margin-bottom: 20px;
+}
+
+.footer_menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987a1;
+}
+.footer_menu ul li a:hover {
+  color: #000000e2;
+  transition: 0.3s;
 }
